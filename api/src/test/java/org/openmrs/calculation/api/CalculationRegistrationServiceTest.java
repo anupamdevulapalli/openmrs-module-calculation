@@ -112,7 +112,6 @@ public class CalculationRegistrationServiceTest extends BaseModuleContextSensiti
 		
 		token.setToken(newTokenName);
 		service.saveCalculationRegistration(token);
-		
 		Assert.assertSame(newTokenName, token.getToken());
 	}
 	

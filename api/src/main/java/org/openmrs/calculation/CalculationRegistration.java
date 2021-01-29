@@ -33,6 +33,7 @@ public class CalculationRegistration extends BaseOpenmrsObject implements java.i
 	private String calculationName;
 	private String configuration;
 	
+	
 	/**
 	 * Default Constructor
 	 */
@@ -53,7 +54,7 @@ public class CalculationRegistration extends BaseOpenmrsObject implements java.i
 	 */
 	@Override
 	public Integer getId() {
-		return id;
+		return this.id;
 	}
 	
 	/**
@@ -68,7 +69,7 @@ public class CalculationRegistration extends BaseOpenmrsObject implements java.i
 	 * @return the token
 	 */
 	public String getToken() {
-		return token;
+		return this.token;
 	}
 
 	/**
@@ -82,7 +83,7 @@ public class CalculationRegistration extends BaseOpenmrsObject implements java.i
 	 * @return the providerClassName
 	 */
 	public String getProviderClassName() {
-		return providerClassName;
+		return this.providerClassName;
 	}
 	
 	/**
@@ -96,7 +97,7 @@ public class CalculationRegistration extends BaseOpenmrsObject implements java.i
 	 * @return the calculationName
 	 */
 	public String getCalculationName() {
-		return calculationName;
+		return this.calculationName;
 	}
 
 	/**
@@ -110,7 +111,7 @@ public class CalculationRegistration extends BaseOpenmrsObject implements java.i
 	 * @return the configuration
 	 */
 	public String getConfiguration() {
-		return configuration;
+		return this.configuration;
 	}
 	
 	/**
